@@ -1,0 +1,16 @@
+.navbar {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 100px;
+    }
+
+    .palace-logo,
+    .tnf-logo {
+        height: 70px;
+    }
+}
