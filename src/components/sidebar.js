@@ -2,6 +2,7 @@ import React from 'react';
 
 const Sidebar = () => (
     <div className="sidebar">
+        <button>All</button>
         <button>T-Shirts</button>
         <button>Shirts</button>
         <button>Pants</button>
