@@ -1,14 +1,18 @@
 import React from 'react';
 
-const Sidebar = () => (
+const categories = [
+    'All',
+    'T-Shirts',
+    'Shirts',
+    'Pants',
+    'Tops',
+    'Shoes',
+    'Accessories'
+]
+
+const Sidebar = ({ filterItems }) => (
     <div className="sidebar">
-        <button>All</button>
-        <button>T-Shirts</button>
-        <button>Shirts</button>
-        <button>Pants</button>
-        <button>Tops</button>
-        <button>Shoes</button>
-        <button>Accessories</button>
+        { categories.map(category => <button onClick={filterItems} key={category}>{category}</button>) }
     </div>
 )
 
