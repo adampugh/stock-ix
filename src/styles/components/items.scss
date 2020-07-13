@@ -1,5 +1,7 @@
 .items {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 50px 80px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 30px 80px;
+    max-width: 900px;
+    margin: 0 auto;
 }

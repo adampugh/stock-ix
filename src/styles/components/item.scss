@@ -1,12 +1,49 @@
 .item {
     display: flex;
     height: 150px;
-    border: 1px solid red;
     justify-content: center;
+    padding: 20px 0;
+    box-sizing: border-box;
+    position: relative;
 
     img {
         max-width: 100%;
         max-height: 100%;
         object-fit: contain;
     }
+
+    
+}
+
+.item__background {
+    position: relative;
+
+    .item__hover {
+        display: none;
+        position: absolute;
+        background: rgba(253, 253, 253, 0.9);
+        height: 100%;
+        width: 100%;
+        top: 0;
+    }
+
+    .item__name {
+        color: rgba(12, 12, 12, 0.9);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        height: 100%;
+        font-family: 'Grenze Gotisch', cursive;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    &:hover {
+        .item__hover {
+            display: block;
+        }
+    }
+    
 }
