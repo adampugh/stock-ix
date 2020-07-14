@@ -5,7 +5,7 @@
     .item__hover {
         display: none;
         position: absolute;
-        background: rgba(253, 253, 253, 0.9);
+        background: rgba(253, 253, 253, 0.8);
         height: 100%;
         width: 100%;
         top: 0;
@@ -42,6 +42,7 @@
     &:hover {
         .item__hover {
             display: block;
+            cursor: pointer;
         }
     }
     

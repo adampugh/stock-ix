@@ -6,12 +6,12 @@ import shirts from './shirts'
 import pants from './pants'
 
 const items = [
+    ...tops,
     ...tShirts,
     ...shirts,
-    ...tops,
     ...shoes,
-    ...accessories,
-    ...pants
+    ...pants,
+    ...accessories
 ]
 
 export default items

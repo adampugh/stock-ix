@@ -2,10 +2,10 @@ import React from 'react';
 
 const categories = [
     'All',
+    'Tops',
     'T-Shirts',
     'Shirts',
     'Pants',
-    'Tops',
     'Shoes',
     'Accessories'
 ]
