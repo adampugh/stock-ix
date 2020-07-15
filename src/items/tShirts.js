@@ -9,7 +9,6 @@ import ChinatownMarketDesigner from '../images/tshirts/chinatownmarketdesigner.j
 import PalaceWiseUp from '../images/tshirts/palacewiseup.jpg'
 import PalaceHeshMitFresh from '../images/tshirts/palaceheshmitfresh.jpg'
 
-
 const tshirts = [
     { name: 'Supreme x Vampirella', img: SupremeVampirella, category: 'tshirts' },
     { name: 'Supreme x Hellraiser', img: SupremeHellraiser, category: 'tshirts' },
