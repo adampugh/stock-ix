@@ -27,7 +27,6 @@ class MainContent extends Component {
 
     render() {
         const { selectedItems } = this.state;
-        console.log('selectedUtens', selectedItems)
 
         return (
             <div className="main-content">

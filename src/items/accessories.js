@@ -12,8 +12,7 @@ const accessories = [
     { name: 'Carolina Herrera CH Men Prive', img: CHPrive, category: 'accessories' },
     { name: 'Giorgio Armani Acqua Di Gio', img: AcquaDiGio, category: 'accessories' },
     { name: '', img: '', category: 'accessories' },
-    { name: '', img: '', category: 'accessories' },
-    
+    { name: '', img: '', category: 'accessories' }
 ]
 
 export default accessories
